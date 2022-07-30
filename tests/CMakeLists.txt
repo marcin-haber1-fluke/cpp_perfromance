@@ -14,6 +14,7 @@ target_sources( ${PROJECT_NAME}
         7_lambda_as_function_pointer.cpp
         8_lambda_types.cpp
         10_generic_lambdas.cpp
+        12_memory.cpp
 )
 
 find_package( GTest REQUIRED )
