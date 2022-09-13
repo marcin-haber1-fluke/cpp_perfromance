@@ -14,7 +14,14 @@ target_sources( ${PROJECT_NAME}
         7_lambda_as_function_pointer.cpp
         8_lambda_types.cpp
         10_generic_lambdas.cpp
-        12_memory.cpp
+        17_standard_algorithms.cpp
+        18_projections_in_range_library.cpp
+        19_data_structure_that_can_be_used_in_generic_algorithm.cpp
+        20_ranges.cpp
+        21_placement_new.cpp
+        22_alignment.cpp
+        23_small_objects_optimization.cpp
+        24_custom_memory_allocations.cpp
 )
 
 find_package( GTest REQUIRED )

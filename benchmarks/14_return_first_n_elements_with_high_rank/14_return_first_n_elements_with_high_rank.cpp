@@ -22,7 +22,7 @@
  * - queue (FIFO)
  *
  * Container adaptors - representation of abstract data types with using different underlying sequence containers like vectors,
- * lists, deques
+ * lists, dequeue
  */
 
 #include <iostream>
