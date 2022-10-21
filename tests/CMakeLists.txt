@@ -20,8 +20,25 @@ target_sources( ${PROJECT_NAME}
         20_ranges.cpp
         21_placement_new.cpp
         22_alignment.cpp
-        23_small_objects_optimization.cpp
+        # Commented due to error with multiple definition of operator new (same like in 27_optional.cpp)
+        # 23_small_objects_optimization.cpp
         24_custom_memory_allocations.cpp
+        25_consteval.cpp
+        26_constraints_and_concepts.cpp
+        27_optional.cpp
+        28_tuple.cpp
+        29_variadic_parameter_pack.cpp
+        30_variants.cpp
+        31_proxy_objects.cpp
+        32_pipe_operator.cpp
+        33_condition_variables.cpp
+        34_barriers.cpp
+        35_latches.cpp
+        36_coroutines.cpp
+        37_any.cpp
+        38_semaphores.cpp
+
+        37_any.cpp
 )
 
 find_package( GTest REQUIRED )
